@@ -1,0 +1,12 @@
+{
+  "model": "microsoft/layoutlmv3-finetuned-rvlcdip",
+  "dataset": "RVL-CDIP subset",
+  "eval_samples": 100,
+  "accuracy": 0.07,
+  "macro_f1": 0.0436,
+  "avg_inference_s": 1.17,
+  "avg_confidence": 0.122,
+  "device": "cpu",
+  "random_seed": 42,
+  "note": "Evaluated on 100 val samples for Milestone 2 checkpoint"
+}

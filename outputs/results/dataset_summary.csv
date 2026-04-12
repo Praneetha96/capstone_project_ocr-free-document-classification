@@ -1,0 +1,4 @@
+Split,Samples,Ratio,Classes
+Train,4000,80%,16
+Validation,500,10%,16
+Test,500,10%,16

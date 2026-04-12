@@ -1,0 +1,12 @@
+{
+  "model": "OCR + TF-IDF + LinearSVC",
+  "dataset": "RVL-CDIP subset",
+  "train_samples": 4000,
+  "val_samples": 500,
+  "accuracy": 0.566,
+  "macro_f1": 0.5643,
+  "inference_ms": 0.01,
+  "tfidf_features": 5000,
+  "ngram_range": "(1, 2)",
+  "random_seed": 42
+}

@@ -1,0 +1,28 @@
+{
+  "ocr_pipeline": {
+    "steps": [
+      "convert to grayscale",
+      "median filter denoising",
+      "resize to 224x224"
+    ],
+    "output_mode": "L (grayscale)",
+    "output_size": "224x224"
+  },
+  "vlm_pipeline": {
+    "steps": [
+      "convert to RGB",
+      "resize to 224x224",
+      "normalize (mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])"
+    ],
+    "output_mode": "RGB",
+    "output_size": "224x224",
+    "tensor_shape": "3x224x224"
+  },
+  "split_ratios": {
+    "train": "80%",
+    "val": "10%",
+    "test": "10%"
+  },
+  "random_seed": 42,
+  "total_samples": 5000
+}
