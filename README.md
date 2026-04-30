@@ -57,25 +57,6 @@ OCR Text → DistilBERT Tokenization → Fine-tuned DistilBERT → Predicted Cla
 
 ---
 
-## Repository Structure
-
-capstone_project_ocr-free-document-classification/
-├── notebooks/
-│   ├── 00_setup.ipynb                  # Environment setup
-│   ├── 01_eda.ipynb                    # Exploratory data analysis
-│   ├── 02_preprocessing.ipynb         # Preprocessing pipelines
-│   ├── 03_baseline_ocr.ipynb          # OCR baseline pipeline
-│   ├── 04_vlm_pipeline.ipynb          # VLM zero-shot pipeline
-│   ├── 05_vit_finetuning.ipynb        # DistilBERT fine-tuning
-│   ├── 06_key_field_extraction.ipynb  # FUNSD and SROIE extraction
-│   └── 07_full_evaluation.ipynb       # Full evaluation and comparison
-├── outputs/
-│   ├── figures/                        # EDA and results plots
-│   └── results/                        # Metrics JSON and CSV files
-├── data/
-│   └── splits.json                     # Fixed train/val/test splits
-├── requirements.txt
-└── README.md
 
 ---
 
@@ -104,6 +85,26 @@ apt-get install -y tesseract-ocr tesseract-ocr-eng
 4. All outputs are saved automatically to Google Drive
 
 ---
+## Repository Structure
+```
+capstone_project_ocr-free-document-classification/
+├── notebooks/
+│   ├── 00_setup.ipynb                  # Environment setup
+│   ├── 01_eda.ipynb                    # Exploratory data analysis
+│   ├── 02_preprocessing.ipynb         # Preprocessing pipelines
+│   ├── 03_baseline_ocr.ipynb          # OCR baseline pipeline
+│   ├── 04_vlm_pipeline.ipynb          # VLM zero-shot pipeline
+│   ├── 05_vit_finetuning.ipynb        # DistilBERT fine-tuning
+│   ├── 06_key_field_extraction.ipynb  # FUNSD and SROIE extraction
+│   └── 07_full_evaluation.ipynb       # Full evaluation and comparison
+├── outputs/
+│   ├── figures/                        # EDA and results plots
+│   └── results/                        # Metrics JSON and CSV files
+├── data/
+│   └── splits.json                     # Fixed train/val/test splits
+├── requirements.txt
+└── README.md
+```
 
 ## Key Findings
 
