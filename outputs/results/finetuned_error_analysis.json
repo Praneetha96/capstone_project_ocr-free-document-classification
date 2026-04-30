@@ -1,0 +1,56 @@
+{
+  "total_errors": 196,
+  "total_samples": 500,
+  "top_confusions": [
+    {
+      "true": "letter",
+      "predicted": "memo",
+      "count": 6
+    },
+    {
+      "true": "handwritten",
+      "predicted": "advertisement",
+      "count": 6
+    },
+    {
+      "true": "advertisement",
+      "predicted": "file folder",
+      "count": 6
+    },
+    {
+      "true": "budget",
+      "predicted": "invoice",
+      "count": 5
+    },
+    {
+      "true": "advertisement",
+      "predicted": "presentation",
+      "count": 5
+    },
+    {
+      "true": "scientific publication",
+      "predicted": "news article",
+      "count": 5
+    },
+    {
+      "true": "scientific publication",
+      "predicted": "scientific report",
+      "count": 4
+    },
+    {
+      "true": "form",
+      "predicted": "advertisement",
+      "count": 4
+    },
+    {
+      "true": "questionnaire",
+      "predicted": "handwritten",
+      "count": 4
+    },
+    {
+      "true": "handwritten",
+      "predicted": "form",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Method,Accuracy,Macro F1,Approach,Fine-tuned
+OCR + TF-IDF + SVM (baseline),0.566,0.5643,OCR + classical ML,No
+ViT zero-shot (M2),0.07,0.0436,Vision model zero-shot,No
+DistilBERT fine-tuned (M3),0.608,0.6026,Transformer fine-tuned on OCR text,Yes

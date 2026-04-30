@@ -1,0 +1,23 @@
+{
+  "code_and_environment": {
+    "dependencies_listed": "Yes \u2014 requirements.txt in GitHub repo",
+    "hardware_specified": "Google Colab T4 GPU",
+    "random_seeds_set": "Yes \u2014 SEED=42 in all notebooks"
+  },
+  "data": {
+    "data_availability": "Public \u2014 RVL-CDIP, FUNSD, SROIE on HuggingFace/GitHub",
+    "splits_defined": "Train: 4000 (80%) | Val: 500 (10%) | Test: 500 (10%)",
+    "preprocessing_described": "Yes \u2014 notebook 02_preprocessing.ipynb"
+  },
+  "model_and_training": {
+    "hyperparameters": {
+      "learning_rate": 2e-05,
+      "batch_size": 32,
+      "epochs": 3,
+      "optimizer": "AdamW",
+      "scheduler": "CosineAnnealingLR"
+    },
+    "architecture": "distilbert-base-uncased",
+    "best_model_saved": "Yes \u2014 best_distilbert_model.pt on Drive"
+  }
+}

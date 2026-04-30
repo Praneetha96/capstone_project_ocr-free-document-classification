@@ -1,0 +1,17 @@
+{
+  "model": "distilbert-base-uncased",
+  "approach": "fine-tuned on OCR-extracted text from RVL-CDIP",
+  "train_samples": 4000,
+  "val_samples": 500,
+  "epochs": 3,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 256,
+  "accuracy": 0.608,
+  "macro_f1": 0.6026,
+  "best_val_acc": 0.608,
+  "random_seed": 42,
+  "device": "cuda",
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR"
+}

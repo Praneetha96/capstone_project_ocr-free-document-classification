@@ -1,0 +1,25 @@
+{
+  "funsd": {
+    "task": "Key field extraction \u2014 form understanding",
+    "model": "DistilBERT fine-tuned",
+    "rule_based_f1": 0.2412,
+    "transformer_f1": 0.2239,
+    "improvement": -0.0173,
+    "labels": [
+      "ANSWER",
+      "HEADER",
+      "OTHER",
+      "QUESTION"
+    ]
+  },
+  "sroie": {
+    "task": "Key field extraction \u2014 invoice understanding",
+    "model": "DistilBERT fine-tuned",
+    "rule_based_results": {
+      "date_accuracy": 0.85,
+      "total_accuracy": 0.01,
+      "company_accuracy": 1.0
+    },
+    "transformer_acc": 1.0
+  }
+}

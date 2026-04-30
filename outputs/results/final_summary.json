@@ -1,0 +1,30 @@
+{
+  "document_classification": {
+    "baseline": {
+      "method": "OCR + TF-IDF + LinearSVC",
+      "accuracy": 0.566,
+      "macro_f1": 0.5643
+    },
+    "zero_shot": {
+      "method": "ViT zero-shot",
+      "accuracy": 0.07,
+      "macro_f1": 0.0436
+    },
+    "finetuned": {
+      "method": "DistilBERT fine-tuned",
+      "accuracy": 0.608,
+      "macro_f1": 0.6026,
+      "improvement_over_baseline": 0.042
+    }
+  },
+  "key_field_extraction": {
+    "funsd_transformer_f1": 0.2239,
+    "sroie_transformer_acc": 1.0
+  },
+  "datasets_used": [
+    "RVL-CDIP",
+    "FUNSD",
+    "SROIE"
+  ],
+  "github_repo": "https://github.com/Praneetha96/capstone_project_ocr-free-document-classification"
+}
