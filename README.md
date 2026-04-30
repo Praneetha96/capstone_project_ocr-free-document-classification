@@ -12,7 +12,6 @@ Document processing systems require OCR for text extraction before document clas
 
 The core hypothesis is that transformer-based models will perform better than the traditional OCR pipelines for document classification, and that Vision-Language Models can classify documents directly from their visual properties without OCR.
 
-
 ## Dataset
 
 RVL-CDIP — 16 document categories including letter, form, email, invoice, resume, and more.
